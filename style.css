@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.back{
+    background-image: url(./imgs/gradient-7258997_1280.webp);
+    height: 270px;
+    width: 400px;
+    border-radius: .9rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.status-frame{
+    
+    height: 70vh;
+    width: 20vw;
+    position: relative;
+    top: 6rem;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
+    border-radius: .7rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 117px;
+    width: 80%;
+    border-radius: .7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.316);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: .5rem;
+}
+button{
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.385);
+    cursor: pointer;
+}
+p{
+    font-size: .9rem;
+}
